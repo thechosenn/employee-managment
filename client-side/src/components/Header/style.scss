@@ -1,0 +1,37 @@
+@import '../../assets//variables';
+
+.header{
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+    justify-content: space-between;
+    padding: 30px;
+
+    &__logo{
+        
+        text-transform: uppercase;
+        font-weight: bold;
+        cursor: pointer;
+        span{
+            color: $primary;
+        }    
+
+    }
+    &__logout-logo{
+        height: 2.2rem;
+        cursor: pointer;
+    }
+    &__auth{
+        display: flex;
+        &-btn{
+            border: 2px solid $primary;
+            padding: 0.4rem 1.5rem;
+            margin-left: 1rem;
+            border-radius: 1rem;
+            font-size: 1.3rem;
+            font-weight: 500;
+            cursor: pointer;
+        }
+    }
+    
+}
